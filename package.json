@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "watch:pollen": "racket watch-pollen.rkt",
+    "watch:css": "unocss 'path/to/your/content/**/*.html' -o path/to/output/uno.css --watch",
+    "dev": "concurrently \"npm run watch:pollen\" \"npm run watch:css\""
+  },
+  "dependencies": {
+    "concurrently": "^9.0.1",
+    "unocss": "^0.63.3"
+  }
+}
