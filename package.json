@@ -1,11 +1,14 @@
 {
   "scripts": {
-    "watch:pollen": "racket watch-pollen.rkt",
+    "watch:pollen": "",
+    "watch:poll": "node live-reload-server.js",
     "watch:css": "unocss --watch",
-    "dev": "concurrently \"raco pollen start\" \"npm run watch:css\""
+    "dev": "concurrently \"raco pollen start\" \"npm run watch:pollen\" \"npm run watch:css\""
   },
   "dependencies": {
+    "chokidar": "^4.0.1",
     "concurrently": "^9.0.1",
-    "unocss": "^0.63.3"
+    "unocss": "^0.63.3",
+    "ws": "^8.18.0"
   }
 }

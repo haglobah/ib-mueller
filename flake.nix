@@ -32,10 +32,14 @@
           packages = [
             pkgs.racket
             pkgs.nodejs_22
+            (pkgs.python3.withPackages (python-pkgs: [
+              python-pkgs.websockets
+            ]))
+            pkgs.fswatch
           ];
           devshell.startup = {
             install-langserver.text = ''raco pkg install --auto --skip-installed racket-langserver'';
-            install-pollen.text = ''raco pkg install --auto --skip-installed pollen'';
+            install-pollen.text = ''raco pkg install --auto --skip-installed pollen file-watchers'';
           };
           commands = [
             { name = "rps"; command = "raco pollen start"; help = "Run the pollen web server"; }

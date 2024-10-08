@@ -48,4 +48,14 @@
 				  				md:px-12 md:py-20 lg:px-24 lg:py-0"])
 					   ,doc)))
   </body>
+	<script>
+		(function() {	
+			var socket = new WebSocket("ws://localhost:8081/ws");
+			socket.onmessage = function(event) {
+				if (event.data === "reload") {
+					window.location.reload();
+				}
+			};
+		})();
+	</script>
 </html>
