@@ -35,11 +35,11 @@
 	<link rel="stylesheet" href="fonts.css">
 	<link rel="stylesheet" href="uno.css">
   </head>
-  ◊(->html `(body ([class "bg-space-cadet leading-relaxed text-zinc-400 antialiased
-						   font-fira-sans
-						   selection:bg-sienna-light selection:text-space-cadet"])
-	              (div ([class "mx-auto min-h-screen max-w-screen-xl px-6 py-12
-				  				md:px-12 md:py-20 lg:px-24 lg:py-0"])
-					   ,doc)))
+  ◊(->html
+		◊body[#:class "bg-white leading-relaxed text-slate-800 antialiased font-ibm-plex-serif selection:bg-slate-900 selection:text-white"]{
+			◊div[#:class "mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0"]{
+				◊|doc|
+			}
+		})
   </body>
 </html>
