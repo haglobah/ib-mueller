@@ -26,6 +26,15 @@ export default defineConfig({
       },
     },
   },
+  extendTheme: (theme) => {
+    return {
+      ...theme,
+      breakpoints: {
+        xs: '520px',
+        ...theme.breakpoints
+      }
+    }
+  },
   presets: [
     presetWind(),
   ],
