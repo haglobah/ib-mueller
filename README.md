@@ -14,27 +14,31 @@ The easiest way to get started with local development is to [use Nix](https://ze
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
 ```
-2. Fork this repo
 3. Enter the nix development environment (from inside the repo):
 ```bash
 cd functional-coders.github.io && nix develop
 ```
-4. Run the project server
+4. Run the everything: The pollen web server and the unocss watcher 
 ```bash
-raco pollen start
+npm run dev
 ```
 5. edit files, reload the browser window, see the changes
 
 ## 2) 'Normal' install
+
 1. Download & Install [Racket](https://racket-lang.org): [download.racket-lang.org](https://download.racket-lang.org)
-2. Install [Pollen](https://pollenpub.com):
+2. Install [Pollen](https://pollenpub.com), and the Racket Language Server:
+```shell
+raco pkg install --auto --skip-installed pollen racket-langserver
 ```
-λ raco pkg install --auto --skip-installed pollen racket-langserver
+3. Download and install nodejs as described [here](https://nodejs.org/en/download/package-manager).
+4. Install the necessary node dependencies:
+```shell
+npm install
 ```
-3. Fork this repo.
-4. Start Pollens' project server from the project root:
+5. Run the everything: The pollen web server and the unocss watcher 
+```bash
+npm run dev
 ```
-λ raco pollen start 
-```
-5. edit some file; reload your browser window; see the change.
+6. edit files, reload the browser window, see the changes
 
