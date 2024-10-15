@@ -1,8 +1,8 @@
-# ...
+# Ingenieurbüro Müller
 
-The website of ...
+The website of the Ingenieurbüro Müller
 
-Written in [Racket](https://racket-lang.org) and [Pollen](https://pollenpub.com), built with [Nix](https://nixos.org), hosted on GitHub Pages.
+Written in [Racket](https://racket-lang.org), [Pollen](https://pollenpub.com) & [unocss](https://unocss.dev), built with [Nix](https://nixos.org), hosted on GitHub Pages.
 
 # Setup
 
@@ -16,9 +16,9 @@ curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix 
 ```
 3. Enter the nix development environment (from inside the repo):
 ```bash
-cd functional-coders.github.io && nix develop
+cd ib-mueller && nix develop
 ```
-4. Run the everything: The pollen web server and the unocss watcher 
+4. Run everything: The pollen web server and the unocss watcher 
 ```bash
 npm run dev
 ```
@@ -36,7 +36,7 @@ raco pkg install --auto --skip-installed pollen racket-langserver
 ```shell
 npm install
 ```
-5. Run the everything: The pollen web server and the unocss watcher 
+5. Run everything: The pollen web server and the unocss watcher 
 ```bash
 npm run dev
 ```
