@@ -1,8 +1,8 @@
 #lang pollen
 
 ◊div[#:class "mx-auto max-w-prose"]{
-  ◊div[#:class "grid grid-cols-1 xs:grid-cols-2 justify-between gap-6 min-h-[60vh]"]{
-    ◊div[#:class "col-span-1 shadow hover:shadow-lg rounded-3xl relative overflow-hidden bg-left-center" #:style "background-image: url(mueller.jpg); background-size: 300px"]{
+  ◊div[#:class "grid grid-cols-1 xs:grid-cols-2 justify-between gap-6 min-h-[90vh] xs:min-h-[60vh]"]{
+    ◊div[#:class "col-span-1 shadow hover:shadow-lg rounded-3xl relative overflow-hidden bg-left-center xs:bg-[20%] bg-cover" #:style "background-image: url(mueller.jpg); background-size: 30rem"]{
       ◊; ◊img[#:class "absolute" #:src "mueller.jpg"]
       ◊h2[#:class "p-6 text-3xl font-light text-white"]{
         Über mich
