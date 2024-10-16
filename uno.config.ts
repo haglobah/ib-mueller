@@ -1,6 +1,7 @@
 import {
   defineConfig,
   presetWind,
+  presetIcons,
  } from 'unocss'
 
 export default defineConfig({
@@ -36,6 +37,7 @@ export default defineConfig({
     }
   },
   presets: [
+    presetIcons(),
     presetWind(),
   ],
   // ...
