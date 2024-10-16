@@ -39,14 +39,23 @@
   </head>
   ◊(->html
 		◊body[#:class "bg-white leading-relaxed text-slate-800 antialiased scroll-smooth font-ibm-plex-serif selection:bg-slate-900 selection:text-white"]{
-			◊div[#:class "mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-24"]{
+			◊div[#:class "mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:pt-24 lg:pb-6"]{
 				◊|doc|
 			}
 		}
 	)
 	◊(->html
-		◊footer[#:class ""]{
-
+		◊footer[#:class "p-10"]{
+			◊div[#:class "flex justify-around"]{
+				◊div[]{}
+				◊div[#:class "group inline-flex items-center gap-2 font-ibm-plex-sans text-lg xs:text-xl"]{
+					◊span[#:class "i-heroicons:circle-solid h-2 w-2 rounded-full bg-dark transition-all duration-300 group-hover:opacity-100 opacity-0"]{}
+					◊a[#:class "transition duration-200" #:href "legal.html"]{
+						Rechtliches
+					}
+				}
+				◊div[]{}
+			}
 		}
 	)
 </html>

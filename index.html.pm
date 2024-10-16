@@ -148,8 +148,8 @@
     ◊h2[#:class "text-2xl xs:text-3xl mb-6 text-slate-800"]{
       Kontakt
     }
-    ◊div[#:class "flex flex-wrap justify-start md:justify-evenly items-center text-lg text-slate-700"]{
-      ◊div[#:class "m-2"]{
+    ◊div[#:class "flex flex-wrap justify-between items-center font-ibm-plex-sans text-lg text-slate-700"]{
+      ◊div[#:class ""]{
         ◊p{
           Sascha Müller
         }
@@ -160,7 +160,7 @@
           72072 Tübingen
         }
       }
-      ◊div[#:class "m-2"]{
+      ◊div[#:class ""]{
         ◊a[#:href "mailto:info@ib-mueller-tuebingen.de" #:class ""]{
           ◊p[#:class "my-2"]{
             ◊span[#:class "flex items-center justify-between gap-2 text-slate-700"]{
