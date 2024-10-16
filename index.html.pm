@@ -125,4 +125,59 @@
       Ich biete Ihnen hierzu fundierte Beratung mit jahrelangen Erkenntnissen aus der Planung, Realisierung und dem Betrieb gebäudetechnischer Anlagen an.
     }
   }
+  ◊div[#:id "kosten" #:class "my-12 font-ibm-plex-sans scroll-mt-10"]{
+    ◊h2[#:class "my-4 text-2xl xs:text-3xl font-ibm-plex-serif"]{
+      Kosten
+    }
+    ◊p[#:class "my-2"]{
+      Grundlage für die Ihnen angebotenen Leistungen ist ein Stundensatz von 120,- EUR/Stunde inkl. MwSt. Fahrtzeiten außerhalb von Tübingen werden zum vollen Stundensatz angerechnet zzgl. einem Kilometergeld von 0,50 EUR/km inkl. MwSt.
+    }
+    ◊p[#:class "my-2"]{
+      Gerne erstelle ich Ihnen nach Klärung Ihrer Leistungswünsche ein individuelles Angebot.
+    }
+  }
+  ◊section[#:id "anfahrt" #:class "my-12 scroll-mt-10"]{
+    ◊h2[#:class "text-2xl xs:text-3xl mb-6 text-slate-800"]{
+      Anfahrt
+    }
+    ◊div[#:class "h-[40vh]"]{
+      ◊iframe[#:src "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3427.9052028571737!2d9.054255657973787!3d48.508771820234635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799fadb7fc56487%3A0x367d6582ddd969d1!2sPrimus-Truber-Stra%C3%9Fe%201%2C%2072072%20T%C3%BCbingen!5e0!3m2!1sde!2sde!4v1693233831578!5m2!1sde!2sde" #:height "100%" #:width "100%" #:frameborder "0" #:style "border:0;" #:allowfullscreen ""]{}
+    }
+  }
+  ◊section[#:id "contact" #:class "mx-auto my-12 scroll-mt-[12vh]"]{
+    ◊h2[#:class "text-2xl xs:text-3xl mb-6 text-slate-800"]{
+      Kontakt
+    }
+    ◊div[#:class "flex flex-wrap justify-start md:justify-evenly items-center text-lg text-slate-700"]{
+      ◊div[#:class "m-2"]{
+        ◊p{
+          Sascha Müller
+        }
+        ◊p{
+          Primus-Truber-Straße 1
+        }
+        ◊p{
+          72072 Tübingen
+        }
+      }
+      ◊div[#:class "m-2"]{
+        ◊a[#:href "mailto:info@ib-mueller-tuebingen.de" #:class ""]{
+          ◊p[#:class "my-2"]{
+            ◊span[#:class "flex items-center justify-between gap-2 text-slate-700"]{
+              ◊span[#:class "i-heroicons:envelope-16-solid bg-slate-700 w-6 h-6"]{}
+              info@ib-mueller-tuebingen.de
+            }
+          }
+        }
+        ◊a[#:href "tel:+491783235662" #:class ""]{
+          ◊p[#:class "my-2"]{
+            ◊span[#:class "flex items-center justify-start gap-2 text-slate-700"]{
+              ◊span[#:class "i-heroicons:phone-solid bg-slate-700 w-6 h-6"]{}
+              +491783235662
+            }
+          }
+        }
+      }
+    }
+  }
 }
