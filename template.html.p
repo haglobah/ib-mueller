@@ -38,8 +38,8 @@
 	<script src="main.js"></script>
   </head>
   ◊(->html
-		◊body[#:class "bg-white leading-relaxed text-slate-800 antialiased font-ibm-plex-serif selection:bg-slate-900 selection:text-white"]{
-			◊div[#:class "mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0"]{
+		◊body[#:class "bg-white leading-relaxed text-slate-800 antialiased scroll-smooth font-ibm-plex-serif selection:bg-slate-900 selection:text-white"]{
+			◊div[#:class "mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-24"]{
 				◊|doc|
 			}
 		})
