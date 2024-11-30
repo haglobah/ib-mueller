@@ -27,33 +27,43 @@
     ◊picture-card[#:title "Beratung" #:picture-style "background-image: url(assets/Beratung.svg); background-repeat: no-repeat; background-size: 18rem;"]{}
   }
   ◊sec[#:title "Über mich" #:picture-style "background-image: url(assets/mueller.jpg); background-repeat: no-repeat; background-size: 34rem; background-position: 25% 50%;"]{
+    ◊par{Nach meiner Ausbildung zum Anlagenmechaniker in der Versorgungstechnik habe ich ein Diplomstudium an der Fachhochschule Esslingen abgeschlossen und mich als Fachplaner für vorbeugenden Brandschutz (EIPOS) weitergebildet. Mit über 20 Jahren Erfahrung als Projekt- und Bereichsleiter in einem mittelständischen Ingenieurbüro sowie im kommunalen Gebäudemanagement bringe ich sowohl das nötige Fachwissen als auch die Praxiserfahrung dafür mit, komplexe Herausforderungen zu einer für alle Beteiligten guten Lösung zu führen.
+    }
     ◊par{
-      In der heutigen komplexen Welt der technischen Gebäudeausrüstung sind fundierte Kenntnisse unerlässlich. Nach meiner Ausbildung zum Anlagenmechaniker in der Versorgungstechnik habe ich ein Diplomstudium an der Fachhochschule Esslingen abgeschlossen und mich als Fachplaner für vorbeugenden Brandschutz (EIPOS) weitergebildet. Mit über 20 Jahren Erfahrung als Projekt- und Bereichsleiter in einem mittelständischen Ingenieurbüro sowie im kommunalen Gebäudemanagement, bringe ich nicht nur Fachwissen, sondern auch die Fähigkeit mit, komplexe technische Herausforderungen zu meistern und effiziente Lösungen zu entwickeln.
+      Diese Expertise ist entscheidend, wenn es darum geht, Instandhaltungsbedarf zu erkennen und Risiken zu minimieren.
     }
 
     ◊par{
-      Diese Expertise ist entscheidend, wenn es darum geht, Instandhaltungsbedarf frühzeitig zu erkennen und Risiken im Gebäudemanagement zu minimieren. In meiner Rolle als Dozent an der Hochschule Biberach habe ich zudem die Fähigkeit entwickelt, komplexe Themen verständlich zu vermitteln, was nicht nur das Lernen der Studierenden fördert, sondern auch die Qualität zukünftiger Fachkräfte sichert.
+      Mein Antrieb?
+    }
+    ◊par{
+      Ich bin sportlich ambitioniert, naturverbunden, umweltbewusst und bereit, Neues mutig anzugehen. Dies spiegelt sich in meinem Engagement wider, innovative Lösungen zu finden, die nicht nur ressourcenschonend sind, sondern auch nachhaltige Ergebnisse liefern.
     }
 
     ◊par{
-      Mein Antrieb? Ich bin sportlich ambitioniert, naturverbunden, umweltbewusst und bereit, Neues mutig anzugehen. Dies spiegelt sich in meinem Engagement wider, innovative Lösungen zu finden, die nicht nur ressourcenschonend sind, sondern auch nachhaltige Ergebnisse liefern.
+      Ich arbeite auf Augenhöhe mit allen Beteiligten, wertschätzend und präzise. Das ermöglicht mir, Probleme zu identifizieren und direkt Lösungen zu entwickeln.
     }
-
     ◊par{
-      Ich arbeite stets auf Augenhöhe mit allen Beteiligten, wertschätzend und präzise. Durch diese Herangehensweise ermögliche ich eine offene Kommunikation, die es mir erlaubt, Probleme schnell zu identifizieren und effektive Lösungen zu entwickeln. Das Ergebnis? Ein reibungsloser Projektablauf, erhöhte Effizienz und nachhaltige Lösungen, die den Anforderungen der heutigen Zeit gerecht werden.
+      Das Ergebnis?
+    }
+    ◊par{
+      Ein reibungsloser Projektablauf, erhöhte Effizienz und nachhaltige Lösungen, die den Anforderungen der heutigen Zeit gerecht werden.
     }
   }
   ◊sec[#:title "Konzeption" #:picture-style "background-image: url(assets/Konzeption.svg); background-repeat: no-repeat; background-size: 18rem; background-position: 0% 0%;" #:picture-right? #true]{
     ◊par{
-      Die zunehmende Komplexität gebäudetechnischer Anlagen stellt Bauherren, Gebäudemanagement-Teams und Immobilienverwalter vor immer größere Herausforderungen. Ob bei der Planung eines Neubaus oder der Sanierung bestehender Gebäude – ein strukturiertes, verständliches Konzept ist entscheidend, um technische Möglichkeiten und gesetzliche Anforderungen in Einklang zu bringen.
+      Die zunehmende Komplexität von Gebäuden stellt Bauherren, das Gebäudemanagement und Immobilienverwalter vor immer größere Herausforderungen. Ob bei der Planung eines Neubaus oder der Sanierung bestehender Gebäude – ein strukturiertes, verständliches Konzept ist entscheidend, um technische Möglichkeiten und gesetzliche Anforderungen in Einklang zu bringen.
     }
     ◊par{
-      Ich unterstütze Sie mit unabhängiger Beratung, um klare und umsetzbare Konzepte für Neubauprojekte und Bestandsgebäude zu entwickeln. Mein Fokus liegt dabei auf der Planung eines langfristigen Instandhaltungs- und Sanierungsmanagements für gebäudetechnische Anlagen – insbesondere in den Bereichen Heizung, Lüftung, Sanitär, Klimatechnik (HLSK) und Gebäudeautomation.
+      Ich unterstütze Sie mit unabhängiger Beratung, um Konzepte für Neubauprojekte und Bestandsgebäude zu entwickeln. Mein Fokus liegt dabei auf der Planung eines langfristigen Instandhaltungs- und Sanierungsmanagements für gebäudetechnische Anlagen – insbesondere in den Bereichen Heizung, Lüftung, Sanitär, Klimatechnik (HLSK) und Gebäudeautomation.
     }
   }
   ◊sec[#:title "Gutachten" #:picture-style "background-image: url(assets/Gutachten.svg); background-repeat: no-repeat; background-size: 18rem; background-position: 0% 0%;"]{
     ◊par{
-      Die technische Gebäudeausrüstung wird immer komplexer. Bei Immobilienbewertungen stehen Eigentümer und Verwalter oft vor der Herausforderung, den Modernisierungs- und Instandsetzungsbedarf präzise zu bestimmen. Ohne fundierte Sachkunde und jahrelange Erfahrung sind solche Bewertungen schwer zu meistern – gerade, wenn es um die Einschätzung der Gebäudetechnik und den damit verbundenen Aufwand geht. Hier wird eine detaillierte Technical Due Diligence (TDD) unverzichtbar.
+      Die technische Gebäudeausrüstung wird immer komplexer. Bei Immobilienbewertungen stehen Eigentümer und Verwalter oft vor der Herausforderung, den Modernisierungs- und Instandsetzungsbedarf akkurat zu bestimmen.
+    }
+    ◊par{
+      Ohne fundierte Sachkunde und jahrelange Erfahrung sind solche Bewertungen schwer zu meistern – gerade, wenn es um die Einschätzung der Gebäudetechnik und den damit verbundenen Aufwand geht. Hier kommt eine detaillierte Technical Due Diligence (TDD) zum Tragen.
     }
     ◊par{
       Besonders bei raumlufttechnischen Anlagen und Trinkwasserinstallationen sind spezifische Prüfungen gefordert. Diese müssen nicht nur den einschlägigen Verordnungen entsprechen, sondern auch den allgemein anerkannten Regeln der Technik folgen – eine Aufgabe, die oft überfordert und Zeit in Anspruch nimmt.
