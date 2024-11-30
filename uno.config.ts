@@ -1,6 +1,7 @@
 import {
   defineConfig,
   presetWind,
+  presetWebFonts,
   presetIcons,
  } from 'unocss'
 
@@ -38,6 +39,14 @@ export default defineConfig({
   },
   presets: [
     presetIcons(),
+    presetWebFonts({
+      provider: 'google',
+      fonts: {
+        sans: 'IBM Plex Sans',
+        serif: 'IBM Plex Serif'
+      },
+    },
+  ),
     presetWind(),
   ],
   // ...

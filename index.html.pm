@@ -1,10 +1,10 @@
 #lang pollen
 
-◊div[#:class "mx-auto max-w-screen-md"]{
+◊div[#:class "mx-auto min-h-screen max-w-screen-md px-6 py-4 md:px-12 md:py-12"]{
   ◊div[#:class "grid grid-cols-1 xs:grid-cols-2 justify-between gap-6 min-h-[90vh] xs:min-h-[60vh]"]{
     ◊picture-card[#:title "Über mich" #:picture-style "background-image: url(assets/mueller.jpg); background-repeat: no-repeat; background-size: 30rem; background-position: 0% 45%;"]{}
     ◊blank-card[#:title "Konzeption"]{
-      ◊div[#:class "pl-6 pb-4 p-2 font-ibm-plex-sans font-bold"]{
+      ◊div[#:class "pl-6 pb-4 p-2 font-sans font-bold"]{
         ◊topics{
           Neubau & Sanierung
           Unabhängige Beratung
@@ -14,7 +14,7 @@
       }
     }
     ◊blank-card[#:title "Gutachten"]{
-      ◊div[#:class "pl-6 pb-4 p-2 font-ibm-plex-sans font-bold"]{
+      ◊div[#:class "pl-6 pb-4 p-2 font-sans font-bold"]{
         ◊topics{
           Technische Gebäudeausrüstung
           Technical Due Diligence (TDD)
@@ -70,8 +70,8 @@
       Ich biete Ihnen hierzu fundierte Beratung mit jahrelangen Erkenntnissen aus der Planung, Realisierung und dem Betrieb gebäudetechnischer Anlagen an.
     }
   }
-  ◊div[#:id "kosten" #:class "my-12 font-ibm-plex-sans scroll-mt-10"]{
-    ◊h2[#:class "my-4 text-2xl xs:text-3xl font-ibm-plex-serif"]{
+  ◊div[#:id "kosten" #:class "my-12 font-sans scroll-mt-10"]{
+    ◊h2[#:class "my-4 text-2xl xs:text-3xl font-serif"]{
       Kosten
     }
     ◊par{
@@ -93,7 +93,7 @@
     ◊h2[#:class "text-2xl xs:text-3xl mb-6 text-slate-800"]{
       Kontakt
     }
-    ◊div[#:class "flex flex-wrap justify-between items-center font-ibm-plex-sans text-lg text-slate-700"]{
+    ◊div[#:class "flex flex-wrap justify-between items-center font-sans text-lg text-slate-700"]{
       ◊div[#:class ""]{
         ◊p{
           Sascha Müller

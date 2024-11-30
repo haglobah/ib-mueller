@@ -43,10 +43,10 @@
     ,@content)))
 
 (define (sec #:title [title ""] #:picture-style [picture-style ""] #:picture-right? [picture-right? false]. content)
-  `(div ([id ,(title->link title)] [class "my-12 font-ibm-plex-sans scroll-mt-10"])
-    (h2 ([class "my-8 text-2xl xs:text-3xl font-ibm-plex-serif"])
+  `(div ([id ,(title->link title)] [class "my-12 font-sans scroll-mt-10"])
+    (h2 ([class "my-8 text-2xl xs:text-3xl font-serif"])
       ,title)
-    (div ([class "md:grid md:grid-cols-9 md:gap-4"])
+    (div ([class "md:grid md:grid-cols-9 md:gap-6"])
       (div ([class ,(string-append "h-56 md:h-96 my-6 mr-4 md:my-4 md:col-span-3 rounded-2xl object-fit" (if picture-right? " md:order-last" ""))] [style ,picture-style]))
       (div ([class "md:col-span-6"])
         ,@content))))
