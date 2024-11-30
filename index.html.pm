@@ -93,31 +93,31 @@
     ◊h2[#:class "text-2xl xs:text-3xl mb-6 text-slate-800"]{
       Kontakt
     }
-    ◊div[#:class "flex flex-wrap justify-between items-center font-sans text-lg text-slate-700"]{
+    ◊div[#:class "flex flex-wrap justify-between items-center font-sans font-bold"]{
       ◊div[#:class ""]{
-        ◊p{
+        ◊p[#:class "my-1"]{
           Sascha Müller
         }
-        ◊p{
+        ◊p[#:class "my-1"]{
           Primus-Truber-Straße 1
         }
-        ◊p{
+        ◊p[#:class "my-1"]{
           72072 Tübingen
         }
       }
       ◊div[#:class ""]{
         ◊a[#:href "mailto:info@ib-mueller-tuebingen.de" #:class ""]{
           ◊par{
-            ◊span[#:class "flex items-center justify-between gap-2 text-slate-700"]{
-              ◊span[#:class "i-heroicons:envelope-16-solid bg-slate-700 w-6 h-6"]{}
+            ◊span[#:class "flex items-center justify-between gap-2"]{
+              ◊span[#:class "i-heroicons:envelope-16-solid w-6 h-6"]{}
               info@ib-mueller-tuebingen.de
             }
           }
         }
         ◊a[#:href "tel:+491783235662" #:class ""]{
           ◊par{
-            ◊span[#:class "flex items-center justify-start gap-2 text-slate-700"]{
-              ◊span[#:class "i-heroicons:phone-solid bg-slate-700 w-6 h-6"]{}
+            ◊span[#:class "flex items-center justify-start gap-2"]{
+              ◊span[#:class "i-heroicons:phone-solid w-6 h-6"]{}
               +491783235662
             }
           }
