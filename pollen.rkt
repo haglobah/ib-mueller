@@ -51,10 +51,14 @@
   `(div ([id ,(title->link title)] [class "my-12 font-sans scroll-mt-10"])
     (h2 ([class "my-8 text-2xl xs:text-3xl font-serif"])
       ,title)
-    (div ([class "md:grid md:grid-cols-9 md:gap-6"])
-      (div ([class ,(string-append "h-56 md:h-96 my-6 mr-4 md:my-4 md:col-span-3 rounded-2xl object-fit" (if picture-right? " md:order-last" ""))] [style ,picture-style]))
-      (div ([class "md:col-span-6"])
-        ,@content))))
+    ,(match picture-style
+      ["" `(div ,@content)] 
+      [_ 
+        `(div ([class "md:grid md:grid-cols-9 md:gap-6"])
+          (div ([class ,(string-append "h-56 md:h-96 my-6 mr-4 md:my-4 md:col-span-3 rounded-2xl object-fit" (if picture-right? " md:order-last" ""))] [style ,picture-style]))
+          (div ([class "md:col-span-6"])
+            ,@content))]
+    )))
 
 (define (par . content)
   `(p ([class "my-2"])

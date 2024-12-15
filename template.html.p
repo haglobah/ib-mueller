@@ -38,7 +38,7 @@
   </head>
   ◊(->html
 		◊body[#:class "bg-white leading-relaxed text-slate-800 antialiased scroll-smooth font-serif selection:bg-slate-900 selection:text-white"]{
-      ◊a[#:class "mb-4 px-4 py-2 shadow-lg flex flex-row items-center justify-center gap-4 font-sans md:font-serif font-bold md:font-medium md:text-2xl" #:href "#"]{
+      ◊a[#:class "mb-4 px-4 py-2 shadow-lg flex flex-row items-center justify-center gap-4 font-sans md:font-serif font-semibold md:font-semibold md:text-2xl" #:href "index.html"]{
         ◊img[#:class "size-32" #:src "assets/logo.svg"]{}
         ◊div[#:class ""]{
           ◊par{
@@ -49,17 +49,19 @@
           }
         }
       }
-      ◊|doc|
+      ◊div[#:class "mx-auto min-h-screen max-w-screen-md px-6 py-4 md:px-12 md:py-12"]{
+        ◊|doc|
+      }
 		}
 	)
 	◊(->html
 		◊footer[#:class "p-10"]{
 			◊div[#:class "flex justify-center gap-4"]{
         ◊link["impressum.html"]{
-          ◊span[#:class "text-lg xs:text-xl"]{Impressum}
+          ◊span[#:class "font-sans font-semibold"]{Impressum}
         }
         ◊link["datenschutz.html"]{
-          ◊span[#:class "text-lg xs:text-xl"]{Datenschutz}
+          ◊span[#:class "font-sans font-semibold"]{Datenschutz}
         }
 			}
 		}
