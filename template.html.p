@@ -54,15 +54,13 @@
 	)
 	◊(->html
 		◊footer[#:class "p-10"]{
-			◊div[#:class "flex justify-around"]{
-				◊div[]{}
-				◊div[#:class "group inline-flex items-center gap-2 font-sans text-lg xs:text-xl"]{
-					◊span[#:class "i-heroicons:circle-solid h-2 w-2 rounded-full bg-dark transition-all duration-300 group-hover:opacity-100 opacity-0"]{}
-					◊a[#:class "transition duration-200" #:href "legal.html"]{
-						Rechtliches
-					}
-				}
-				◊div[]{}
+			◊div[#:class "flex justify-center gap-4"]{
+        ◊link["impressum.html"]{
+          ◊span[#:class "text-lg xs:text-xl"]{Impressum}
+        }
+        ◊link["datenschutz.html"]{
+          ◊span[#:class "text-lg xs:text-xl"]{Datenschutz}
+        }
 			}
 		}
 	)
