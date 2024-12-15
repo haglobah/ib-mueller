@@ -45,7 +45,7 @@
             Ingenieurbüro für Gebäudetechnik
           }
           ◊par{
-            Dipl.-Ing. (FH) Sascha Müller
+            Dipl.-Ing. (FH) ◊span[#:class "text-nowrap"]{Sascha Müller}
           }
         }
       }
