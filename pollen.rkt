@@ -14,7 +14,7 @@
 	(if (equal? content "") "" `(,tag [[class ,class-name]] ,content)))
 
 (define (link href . content)
-  `(a ([class "group inline-flex items-center gap-2 font-sans text-lg xs:text-xl"] [href ,href])
+  `(a ([class "group inline-flex items-center gap-2 font-sans"] [href ,href])
       (span ([class "i-heroicons:circle-solid h-2 w-2 rounded-full bg-dark transition-all duration-300 group-hover:opacity-100 opacity-0"]))
       ,@content))
 

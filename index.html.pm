@@ -6,19 +6,16 @@
     ◊div[#:class "pl-6 pb-4 p-2 font-sans font-semibold"]{
       ◊topics{
         Neubau & Sanierung
-        Unabhängige Beratung
-        Strukturiertes Konzept
-        Projektentwicklung
+        Unabhängige & Strukturiert
+        Instandhaltungsmanagement
       }
     }
   }
   ◊blank-card[#:title "Gutachten"]{
     ◊div[#:class "pl-6 pb-4 p-2 font-sans font-semibold"]{
       ◊topics{
-        Technische Gebäudeausrüstung
         Technical Due Diligence (TDD)
-        Sachkunde & Fachwissen
-        Gefährdungsanalyse TWVO
+        Gefährdungsanalyse TrinkW
         Hygieneinspektion VDI 6022/6023
       }
     }
@@ -26,7 +23,7 @@
   ◊picture-card[#:title "Beratung" #:picture-style "background-image: url(assets/Beratung.svg); background-repeat: no-repeat; background-size: 18rem;"]{}
 }
 ◊sec[#:title "Über mich"  #:picture "assets/mueller.jpg" #:picture-style "background-size: 34rem; background-position: 25% 50%;"]{
-  ◊par{Nach meiner Ausbildung zum Anlagenmechaniker in der Versorgungstechnik habe ich ein Diplomstudium an der Fachhochschule Esslingen abgeschlossen und mich als Fachplaner für vorbeugenden Brandschutz (EIPOS) weitergebildet. Mit über 20 Jahren Erfahrung als Projekt- und Bereichsleiter in einem mittelständischen Ingenieurbüro sowie im kommunalen Gebäudemanagement bringe ich sowohl das nötige Fachwissen als auch die Praxiserfahrung dafür mit, komplexe Herausforderungen zu einer für alle Beteiligten guten Lösung zu führen.
+  ◊par{Nach meiner Ausbildung zum Anlagenmechaniker in der Versorgungstechnik habe ich ein Diplomstudium an der Fachhochschule Esslingen abgeschlossen und mich als Fachplaner für vorbeugenden Brandschutz (EIPOS) weitergebildet. Mit über 20 Jahren Erfahrung als Projekt- und Bereichsleiter in einem mittelständischen Ingenieurbüro sowie im kommunalen Gebäudemanagement bringe ich sowohl das nötige Fachwissen als auch die Praxiserfahrung dafür mit, vielschichtige Herausforderungen zu einer für alle Beteiligten guten Lösung zu führen.
   }
   ◊par{
     Diese Expertise ist entscheidend, wenn es darum geht, Instandhaltungsbedarf zu erkennen und Risiken zu minimieren.
@@ -51,7 +48,7 @@
 }
 ◊sec[#:title "Konzeption" #:picture "assets/Konzeption.svg" #:picture-class "bg-[size:18rem] md:bg-[size:12rem]" #:picture-right? #true]{
   ◊par{
-    Die zunehmende Komplexität von Gebäuden stellt Bauherren, das Gebäudemanagement und Immobilienverwalter vor immer größere Herausforderungen. Ob bei der Planung eines Neubaus oder der Sanierung bestehender Gebäude – ein strukturiertes, verständliches Konzept ist entscheidend, um technische Möglichkeiten und gesetzliche Anforderungen in Einklang zu bringen.
+    Die zunehmende Komplexität von Gebäuden stellt Bauherren, das Gebäudemanagement und Immobilienverwalter vor immer schwierigere Aufgaben. Ob bei der Planung eines Neubaus oder der Sanierung bestehender Gebäude – ein strukturiertes, verständliches Konzept ist entscheidend, um technische Möglichkeiten und gesetzliche Anforderungen in Einklang zu bringen.
   }
   ◊par{
     Ich unterstütze Sie mit unabhängiger Beratung, um Konzepte für Neubauprojekte und Bestandsgebäude zu entwickeln. Mein Fokus liegt dabei auf der Planung eines langfristigen Instandhaltungs- und Sanierungsmanagements für gebäudetechnische Anlagen – insbesondere in den Bereichen Heizung, Lüftung, Sanitär, Klimatechnik (HLSK) und Gebäudeautomation.
@@ -59,7 +56,7 @@
 }
 ◊sec[#:title "Gutachten" #:picture "assets/Gutachten.svg" #:picture-class "bg-[size:18rem] md:bg-[size:12rem]"]{
   ◊par{
-    Die technische Gebäudeausrüstung wird immer komplexer. Bei Immobilienbewertungen stehen Eigentümer und Verwalter oft vor der Herausforderung, den Modernisierungs- und Instandsetzungsbedarf akkurat zu bestimmen.
+    Die technische Gebäudeausrüstung wird immer komplexer. Bei Immobilienbewertungen wissen Eigentümer und Verwalter oft nicht, wie sie den Modernisierungs- und Instandsetzungsbedarf akkurat bewerten können.
   }
   ◊par{
     Ohne fundierte Sachkunde und jahrelange Erfahrung sind solche Bewertungen schwer zu meistern – gerade, wenn es um die Einschätzung der Gebäudetechnik und den damit verbundenen Aufwand geht. Hier kommt eine detaillierte Technical Due Diligence (TDD) zum Tragen.
@@ -68,12 +65,12 @@
     Besonders bei raumlufttechnischen Anlagen und Trinkwasserinstallationen sind spezifische Prüfungen gefordert. Diese müssen nicht nur den einschlägigen Verordnungen entsprechen, sondern auch den allgemein anerkannten Regeln der Technik folgen – eine Aufgabe, die oft überfordert und Zeit in Anspruch nimmt.
   }
   ◊par{
-    Ich biete Ihnen unabhängige Gutachten, detaillierte Gefährdungsanalysen nach der Trinkwasserverordnung (TWVO) und Hygieneinspektionen gemäß VDI 6022 und VDI 6023 an, um Ihre Gebäude auf Herz und Nieren zu prüfen und Ihnen klare Handlungsempfehlungen zu geben.
+    Ich biete Ihnen unabhängige Gutachten, detaillierte Gefährdungsanalysen nach der Trinkwasserverordnung (TrinkW) und Hygieneinspektionen gemäß VDI 6022 und VDI 6023 an, um Ihre Gebäude auf Herz und Nieren zu prüfen und Ihnen klare Handlungsempfehlungen zu geben.
   }
 }
 ◊sec[#:title "Beratung" #:picture "assets/Beratung.svg" #:picture-class "bg-[size:18rem] md:bg-[size:12rem]" #:picture-right? #true]{
   ◊par{
-    Ein effizienter, sicherer und der Nutzung angepasster Betrieb gebäudetechnischer Anlagen beginnt nicht erst mit der Inbetriebnahme oder wohl möglich mit der Übergabe an den Nutzer. Bereits bei der Planung von Gebäuden und der technischen Gebäudeausrüstung (TGA) sind eine Vielzahl von gewerkeübergreifenden Schnittstellen und Beziehungen zu beachten und zu koordinieren. Hier bestimmt sich größtenteils schon der Umfang der Instandhaltungsmaßnahmen während des gesamten Gebäudebetriebs.
+    Ein effizienter, sicherer und der Nutzung angepasster Betrieb gebäudetechnischer Anlagen beginnt nicht erst mit der Inbetriebnahme oder wohl möglich mit der Übergabe an den Nutzer. Bereits bei der Planung von Gebäuden und der technischen Gebäudeausrüstung (TGA) sind eine Vielzahl von gewerkeübergreifenden Schnittstellen und Beziehungen zu beachten und zu koordinieren. Hier bestimmt sich größtenteils schon der Gesamtprozess der Inbetriebnahme und der Umfang der Instandhaltung während des Gebäudebetriebs.
   }
   ◊par{
     Ich biete Ihnen hierzu fundierte Beratung mit jahrelangen Erkenntnissen aus der Planung, Realisierung und dem Betrieb gebäudetechnischer Anlagen an.

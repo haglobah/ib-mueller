@@ -234,9 +234,6 @@
 .md\:px-12{padding-left:3rem;padding-right:3rem;}
 .md\:py-12{padding-top:3rem;padding-bottom:3rem;}
 .md\:py-20{padding-top:5rem;padding-bottom:5rem;}
-.md\:text-2xl{font-size:1.5rem;line-height:2rem;}
-.md\:font-semibold{font-weight:600;}
-.md\:font-serif{font-family:"IBM Plex Serif",ui-serif,Georgia,Cambria,"Times New Roman",Times,serif;}
 }
 @media (min-width: 1024px){
 .lg\:px-24{padding-left:6rem;padding-right:6rem;}
