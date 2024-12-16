@@ -25,7 +25,7 @@
   }
   ◊picture-card[#:title "Beratung" #:picture-style "background-image: url(assets/Beratung.svg); background-repeat: no-repeat; background-size: 18rem;"]{}
 }
-◊sec[#:title "Über mich" #:picture-style "background-image: url(assets/mueller.jpg); background-repeat: no-repeat; background-size: 34rem; background-position: 25% 50%;"]{
+◊sec[#:title "Über mich"  #:picture "assets/mueller.jpg" #:picture-style "background-size: 34rem; background-position: 25% 50%;"]{
   ◊par{Nach meiner Ausbildung zum Anlagenmechaniker in der Versorgungstechnik habe ich ein Diplomstudium an der Fachhochschule Esslingen abgeschlossen und mich als Fachplaner für vorbeugenden Brandschutz (EIPOS) weitergebildet. Mit über 20 Jahren Erfahrung als Projekt- und Bereichsleiter in einem mittelständischen Ingenieurbüro sowie im kommunalen Gebäudemanagement bringe ich sowohl das nötige Fachwissen als auch die Praxiserfahrung dafür mit, komplexe Herausforderungen zu einer für alle Beteiligten guten Lösung zu führen.
   }
   ◊par{
@@ -49,7 +49,7 @@
     Ein reibungsloser Projektablauf, erhöhte Effizienz und nachhaltige Lösungen, die den Anforderungen der heutigen Zeit gerecht werden.
   }
 }
-◊sec[#:title "Konzeption" #:picture-style "background-image: url(assets/Konzeption.svg); background-repeat: no-repeat; background-size: 18rem; background-position: 0% 0%;" #:picture-right? #true]{
+◊sec[#:title "Konzeption" #:picture "assets/Konzeption.svg" #:picture-class "bg-[size:18rem] md:bg-[size:12rem]" #:picture-right? #true]{
   ◊par{
     Die zunehmende Komplexität von Gebäuden stellt Bauherren, das Gebäudemanagement und Immobilienverwalter vor immer größere Herausforderungen. Ob bei der Planung eines Neubaus oder der Sanierung bestehender Gebäude – ein strukturiertes, verständliches Konzept ist entscheidend, um technische Möglichkeiten und gesetzliche Anforderungen in Einklang zu bringen.
   }
@@ -57,7 +57,7 @@
     Ich unterstütze Sie mit unabhängiger Beratung, um Konzepte für Neubauprojekte und Bestandsgebäude zu entwickeln. Mein Fokus liegt dabei auf der Planung eines langfristigen Instandhaltungs- und Sanierungsmanagements für gebäudetechnische Anlagen – insbesondere in den Bereichen Heizung, Lüftung, Sanitär, Klimatechnik (HLSK) und Gebäudeautomation.
   }
 }
-◊sec[#:title "Gutachten" #:picture-style "background-image: url(assets/Gutachten.svg); background-repeat: no-repeat; background-size: 18rem; background-position: 0% 0%;"]{
+◊sec[#:title "Gutachten" #:picture "assets/Gutachten.svg" #:picture-class "bg-[size:18rem] md:bg-[size:12rem]"]{
   ◊par{
     Die technische Gebäudeausrüstung wird immer komplexer. Bei Immobilienbewertungen stehen Eigentümer und Verwalter oft vor der Herausforderung, den Modernisierungs- und Instandsetzungsbedarf akkurat zu bestimmen.
   }
@@ -71,7 +71,7 @@
     Ich biete Ihnen unabhängige Gutachten, detaillierte Gefährdungsanalysen nach der Trinkwasserverordnung (TWVO) und Hygieneinspektionen gemäß VDI 6022 und VDI 6023 an, um Ihre Gebäude auf Herz und Nieren zu prüfen und Ihnen klare Handlungsempfehlungen zu geben.
   }
 }
-◊sec[#:title "Beratung" #:picture-style "background-image: url(assets/Beratung.svg); background-repeat: no-repeat; background-size: 18rem; background-position: 0% 0%;" #:picture-right? #true]{
+◊sec[#:title "Beratung" #:picture "assets/Beratung.svg" #:picture-class "bg-[size:18rem] md:bg-[size:12rem]" #:picture-right? #true]{
   ◊par{
     Ein effizienter, sicherer und der Nutzung angepasster Betrieb gebäudetechnischer Anlagen beginnt nicht erst mit der Inbetriebnahme oder wohl möglich mit der Übergabe an den Nutzer. Bereits bei der Planung von Gebäuden und der technischen Gebäudeausrüstung (TGA) sind eine Vielzahl von gewerkeübergreifenden Schnittstellen und Beziehungen zu beachten und zu koordinieren. Hier bestimmt sich größtenteils schon der Umfang der Instandhaltungsmaßnahmen während des gesamten Gebäudebetriebs.
   }
@@ -84,7 +84,7 @@
     Kosten
   }
   ◊par{
-    Grundlage für die Ihnen angebotenen Leistungen ist ein Stundensatz von 120,- EUR/Stunde inkl. MwSt. Fahrtzeiten außerhalb von Tübingen werden zum vollen Stundensatz angerechnet zzgl. einem Kilometergeld von 0,50 EUR/km inkl. MwSt.
+    Grundlage für die Ihnen angebotenen Leistungen ist ein Stundensatz von 140,- EUR/Stunde inkl. MwSt. Fahrtzeiten außerhalb von Tübingen werden zum vollen Stundensatz angerechnet zzgl. einem Kilometergeld von 0,60 EUR/km inkl. MwSt.
   }
   ◊par{
     Gerne erstelle ich Ihnen nach Klärung Ihrer Leistungswünsche ein individuelles Angebot.
@@ -105,7 +105,7 @@
   ◊div[#:class "flex flex-wrap justify-between items-center font-sans font-semibold"]{
     ◊div[#:class ""]{
       ◊p[#:class "my-1"]{
-        Sascha Müller
+        Dipl.-Ing. (FH) Sascha Müller
       }
       ◊p[#:class "my-1"]{
         Primus-Truber-Straße 1

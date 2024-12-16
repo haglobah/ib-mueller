@@ -38,7 +38,7 @@
   </head>
   ◊(->html
 		◊body[#:class "bg-white leading-relaxed text-slate-800 antialiased scroll-smooth font-serif selection:bg-slate-900 selection:text-white"]{
-      ◊a[#:class "mb-4 px-4 py-2 shadow-lg flex flex-row items-center justify-center gap-4 font-sans md:font-serif font-semibold md:font-semibold md:text-2xl" #:href "index.html"]{
+      ◊a[#:class "mb-4 px-4 py-2 shadow-lg flex flex-row items-center justify-center gap-4 font-sans font-semibold" #:href "index.html"]{
         ◊img[#:class "size-32" #:src "assets/logo.svg"]{}
         ◊div[#:class ""]{
           ◊par{

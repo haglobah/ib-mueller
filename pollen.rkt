@@ -47,15 +47,15 @@
           (div ([class "bg-slate-800 i-heroicons:arrow-right -rotate-45 m-6 w-7 h-7 transition-all duration-200 group-hover:rotate-0"]))))
     ,@content)))
 
-(define (sec #:title [title ""] #:picture-style [picture-style ""] #:picture-right? [picture-right? false]. content)
+(define (sec #:title [title ""] #:picture [picture ""] #:picture-class [class ""] #:picture-style [picture-style ""] #:picture-right? [picture-right? false]. content)
   `(div ([id ,(title->link title)] [class "my-12 font-sans scroll-mt-10"])
     (h2 ([class "my-8 text-2xl xs:text-3xl font-serif"])
       ,title)
-    ,(match picture-style
+    ,(match picture
       ["" `(div ,@content)] 
       [_ 
         `(div ([class "md:grid md:grid-cols-9 md:gap-6"])
-          (div ([class ,(string-append "h-56 md:h-96 my-6 mr-4 md:my-4 md:col-span-3 rounded-2xl object-fit" (if picture-right? " md:order-last" ""))] [style ,picture-style]))
+          (div ([class ,(string-append "h-56 md:h-96 my-6 mr-4 md:my-4 md:col-span-3 rounded-2xl object-fit " (if picture-right? "md:order-last " "") class)] [style ,(string-append "background-image: url(" picture "); background-repeat: no-repeat; " picture-style)]))
           (div ([class "md:col-span-6"])
             ,@content))]
     )))
