@@ -34,7 +34,7 @@
 
 	<link rel="stylesheet" href="assets/preflight.css">
 	<link rel="stylesheet" href="assets/uno.css">
-	<script src="main.js"></script>
+	<script src="assets/main.js"></script>
   </head>
   ◊(->html
 		◊body[#:class "bg-white leading-relaxed text-slate-800 antialiased scroll-smooth font-serif selection:bg-slate-900 selection:text-white"]{
