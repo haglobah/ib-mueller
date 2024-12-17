@@ -25,22 +25,13 @@
   Kontakt
 }
 ◊par{
-  Email ◊br{}
-  ◊link["mailto:info@ib-mueller-tuebingen.de"]{
-    info@ib-mueller-tuebingen.de
-  }
+  Email: ◊link["mailto:info@ib-mueller-tuebingen.de"]{info@ib-mueller-tuebingen.de}
 }
 ◊par{
-  Telefon ◊br{}
-  ◊link["tel:+491783235662"]{
-    0178 / 3235662
-  }
+  Telefon: ◊link["tel:+491783235662"]{0178 / 3235662}
 }
 ◊par{
-  Website ◊br{}
-  ◊link["ib-mueller-tuebingen.de"]{
-    www.ib-mueller-tuebingen.de
-  }
+  Website: ◊link["ib-mueller-tuebingen.de"]{www.ib-mueller-tuebingen.de}
 }
 
 ◊div[#:class "my-6"]
@@ -50,22 +41,21 @@
 }
 
 ◊par{
-  Inhaltlich verantwortlich: ◊br{}
-  Sascha Müller
+  Inhaltlich verantwortlich: Sascha Müller
 }
 ◊par{
-  Bildnachweise: ◊br{}
-  Laurina Müller, Sascha Müller
+  Bildnachweise: Laurina Müller, Sascha Müller
 }
 ◊par{
-  Webdesign & Programming ◊br{}
-  Beat Hagenlocher
+  Webdesign & Programmierung: Beat Hagenlocher
 }
 ◊h3[#:class "mt-6 mb-2 text-xl"]{
   Streitschlichtung
 }
 ◊par{
-  Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr
+  Die Europäische Kommission stellt eine Plattform zur ◊link["https://ec.europa.eu/consumers/odr"]{Online-Streitbeilegung (OS)} bereit.
+}
+◊par{
   Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 }
 ◊h3[#:class "mt-6 mb-2 text-xl"]{
