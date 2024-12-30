@@ -189,7 +189,6 @@
 .text-nowrap{text-wrap:nowrap;}
 .text-2xl{font-size:1.5rem;line-height:2rem;}
 .text-3xl{font-size:1.875rem;line-height:2.25rem;}
-.text-lg{font-size:1.125rem;line-height:1.75rem;}
 .text-xl{font-size:1.25rem;line-height:1.75rem;}
 .text-slate-800{--un-text-opacity:1;color:rgb(30 41 59 / var(--un-text-opacity)) /* #1e293b */;}
 .text-white{--un-text-opacity:1;color:rgb(255 255 255 / var(--un-text-opacity)) /* #fff */;}
@@ -219,7 +218,6 @@
 .xs\:bg-\[20\%\]{background-position:20%;}
 .xs\:text-3xl{font-size:1.875rem;line-height:2.25rem;}
 .xs\:text-4xl{font-size:2.25rem;line-height:2.5rem;}
-.xs\:text-xl{font-size:1.25rem;line-height:1.75rem;}
 }
 @media (min-width: 640px){
 .sm\:scroll-smooth{scroll-behavior:smooth;}

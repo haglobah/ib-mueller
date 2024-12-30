@@ -6,7 +6,7 @@
     ◊div[#:class "pl-6 pb-4 p-2 font-sans font-semibold"]{
       ◊topics{
         Neubau & Sanierung
-        Unabhängige & Strukturiert
+        Unabhängig & Strukturiert
         Instandhaltungsmanagement
       }
     }
@@ -15,7 +15,7 @@
     ◊div[#:class "pl-6 pb-4 p-2 font-sans font-semibold"]{
       ◊topics{
         Technical Due Diligence (TDD)
-        Gefährdungsanalyse TrinkW
+        Gefährdungsanalyse TrinkwV
         Hygieneinspektion VDI 6022/6023
       }
     }
@@ -65,7 +65,7 @@
     Besonders bei raumlufttechnischen Anlagen und Trinkwasserinstallationen sind spezifische Prüfungen gefordert. Diese müssen nicht nur den einschlägigen Verordnungen entsprechen, sondern auch den allgemein anerkannten Regeln der Technik folgen – eine Aufgabe, die oft überfordert und Zeit in Anspruch nimmt.
   }
   ◊par{
-    Ich biete Ihnen unabhängige Gutachten, detaillierte Gefährdungsanalysen nach der Trinkwasserverordnung (TrinkW) und Hygieneinspektionen gemäß VDI 6022 und VDI 6023 an, um Ihre Gebäude auf Herz und Nieren zu prüfen und Ihnen klare Handlungsempfehlungen zu geben.
+    Ich biete Ihnen unabhängige Gutachten, detaillierte Gefährdungsanalysen nach der Trinkwasserverordnung (TrinkwV) und Hygieneinspektionen gemäß VDI 6022 und VDI 6023 an, um Ihre Gebäude auf Herz und Nieren zu prüfen und Ihnen klare Handlungsempfehlungen zu geben.
   }
 }
 ◊sec[#:title "Beratung" #:picture "assets/Beratung.svg" #:picture-class "bg-[size:18rem] md:bg-[size:12rem]" #:picture-right? #true]{
